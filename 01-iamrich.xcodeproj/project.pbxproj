@@ -12,20 +12,34 @@
 		87B082FE2295FEEE00D2F43C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87B082FC2295FEEE00D2F43C /* Main.storyboard */; };
 		87B083002295FEEF00D2F43C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87B082FF2295FEEF00D2F43C /* Assets.xcassets */; };
 		87B083032295FEEF00D2F43C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87B083012295FEEF00D2F43C /* LaunchScreen.storyboard */; };
+		87B0830C229602DC00D2F43C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B082FA2295FEEE00D2F43C /* ViewController.swift */; };
+		87B0830D229602DC00D2F43C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B082F82295FEEE00D2F43C /* AppDelegate.swift */; };
+		87B08310229602DC00D2F43C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87B083012295FEEF00D2F43C /* LaunchScreen.storyboard */; };
+		87B08311229602DC00D2F43C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87B082FF2295FEEF00D2F43C /* Assets.xcassets */; };
+		87B08312229602DC00D2F43C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87B082FC2295FEEE00D2F43C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		87B082F52295FEEE00D2F43C /* 01-iamrich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-iamrich.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B082F52295FEEE00D2F43C /* 01-iamrich-Release.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-iamrich-Release.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87B082F82295FEEE00D2F43C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87B082FA2295FEEE00D2F43C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		87B082FD2295FEEE00D2F43C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87B082FF2295FEEF00D2F43C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87B083022295FEEF00D2F43C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87B083042295FEEF00D2F43C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87B08316229602DC00D2F43C /* 01-iamrich-Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-iamrich-Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B08317229602DC00D2F43C /* 01-iamrich-Release copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "01-iamrich-Release copy-Info.plist"; path = "/Users/a2019/Documents/Proyectos/SWIFT/courseIOS12/01-iamrich/01-iamrich/01-iamrich-Release copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		87B082F22295FEEE00D2F43C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B0830E229602DC00D2F43C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,13 +54,16 @@
 			children = (
 				87B082F72295FEEE00D2F43C /* 01-iamrich */,
 				87B082F62295FEEE00D2F43C /* Products */,
+				87B08317229602DC00D2F43C /* 01-iamrich-Release copy-Info.plist */,
+				87B083042295FEEF00D2F43C /* Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		87B082F62295FEEE00D2F43C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				87B082F52295FEEE00D2F43C /* 01-iamrich.app */,
+				87B082F52295FEEE00D2F43C /* 01-iamrich-Release.app */,
+				87B08316229602DC00D2F43C /* 01-iamrich-Debug.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,21 +72,44 @@
 			isa = PBXGroup;
 			children = (
 				87B082F82295FEEE00D2F43C /* AppDelegate.swift */,
-				87B082FA2295FEEE00D2F43C /* ViewController.swift */,
-				87B082FC2295FEEE00D2F43C /* Main.storyboard */,
+				87B0831A229615C000D2F43C /* Controller */,
+				87B08319229615B800D2F43C /* View */,
+				87B08318229615AD00D2F43C /* Model */,
 				87B082FF2295FEEF00D2F43C /* Assets.xcassets */,
-				87B083012295FEEF00D2F43C /* LaunchScreen.storyboard */,
-				87B083042295FEEF00D2F43C /* Info.plist */,
 			);
 			path = "01-iamrich";
+			sourceTree = "<group>";
+		};
+		87B08318229615AD00D2F43C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		87B08319229615B800D2F43C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				87B082FC2295FEEE00D2F43C /* Main.storyboard */,
+				87B083012295FEEF00D2F43C /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		87B0831A229615C000D2F43C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				87B082FA2295FEEE00D2F43C /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		87B082F42295FEEE00D2F43C /* 01-iamrich */ = {
+		87B082F42295FEEE00D2F43C /* 01-iamrich-Release */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87B083072295FEEF00D2F43C /* Build configuration list for PBXNativeTarget "01-iamrich" */;
+			buildConfigurationList = 87B083072295FEEF00D2F43C /* Build configuration list for PBXNativeTarget "01-iamrich-Release" */;
 			buildPhases = (
 				87B082F12295FEEE00D2F43C /* Sources */,
 				87B082F22295FEEE00D2F43C /* Frameworks */,
@@ -79,9 +119,26 @@
 			);
 			dependencies = (
 			);
-			name = "01-iamrich";
+			name = "01-iamrich-Release";
 			productName = "01-iamrich";
-			productReference = 87B082F52295FEEE00D2F43C /* 01-iamrich.app */;
+			productReference = 87B082F52295FEEE00D2F43C /* 01-iamrich-Release.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87B0830A229602DC00D2F43C /* 01-iamrich-Debug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87B08313229602DC00D2F43C /* Build configuration list for PBXNativeTarget "01-iamrich-Debug" */;
+			buildPhases = (
+				87B0830B229602DC00D2F43C /* Sources */,
+				87B0830E229602DC00D2F43C /* Frameworks */,
+				87B0830F229602DC00D2F43C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01-iamrich-Debug";
+			productName = "01-iamrich";
+			productReference = 87B08316229602DC00D2F43C /* 01-iamrich-Debug.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -112,7 +169,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				87B082F42295FEEE00D2F43C /* 01-iamrich */,
+				87B082F42295FEEE00D2F43C /* 01-iamrich-Release */,
+				87B0830A229602DC00D2F43C /* 01-iamrich-Debug */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +186,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		87B0830F229602DC00D2F43C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B08310229602DC00D2F43C /* LaunchScreen.storyboard in Resources */,
+				87B08311229602DC00D2F43C /* Assets.xcassets in Resources */,
+				87B08312229602DC00D2F43C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,6 +205,15 @@
 			files = (
 				87B082FB2295FEEE00D2F43C /* ViewController.swift in Sources */,
 				87B082F92295FEEE00D2F43C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B0830B229602DC00D2F43C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B0830C229602DC00D2F43C /* ViewController.swift in Sources */,
+				87B0830D229602DC00D2F43C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +391,42 @@
 			};
 			name = Release;
 		};
+		87B08314229602DC00D2F43C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 496ES8NA57;
+				INFOPLIST_FILE = "01-iamrich-Release copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.com.sminet.-1-iamrich";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87B08315229602DC00D2F43C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 496ES8NA57;
+				INFOPLIST_FILE = "01-iamrich-Release copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.com.sminet.-1-iamrich";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -326,11 +439,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87B083072295FEEF00D2F43C /* Build configuration list for PBXNativeTarget "01-iamrich" */ = {
+		87B083072295FEEF00D2F43C /* Build configuration list for PBXNativeTarget "01-iamrich-Release" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				87B083082295FEEF00D2F43C /* Debug */,
 				87B083092295FEEF00D2F43C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87B08313229602DC00D2F43C /* Build configuration list for PBXNativeTarget "01-iamrich-Debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B08314229602DC00D2F43C /* Debug */,
+				87B08315229602DC00D2F43C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
