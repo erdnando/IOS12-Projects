@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         
     }
     
-    
+    //Metodo pressed
     @IBAction func btnPressed(_ sender: UIButton) {
         
         //print("Boton presionado")
